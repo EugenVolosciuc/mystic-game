@@ -121,7 +121,7 @@ func (game *Game) setupPlayers(classes []Class) {
 	}
 }
 
-func initialeClasses() []Class {
+func initializeClasses() []Class {
 	return []Class{
 		{
 			name: "Knight",
@@ -192,7 +192,7 @@ func main() {
 		GameStop
 	)
 
-	classes := initialeClasses()
+	classes := initializeClasses()
 
 	fmt.Println(classes)
 
